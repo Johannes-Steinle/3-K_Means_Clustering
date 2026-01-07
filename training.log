@@ -16,3 +16,56 @@
 2026-01-07 10:51:39,499 - INFO - Erstelle Cluster-Zuweisungen...
 2026-01-07 10:51:39,501 - INFO - Starte Modelltraining (KMeans, k=2)...
 2026-01-07 10:51:39,518 - INFO - Training beendet in 0.0168 Sekunden.
+2026-01-07 12:16:13,062 - INFO - Daten erfolgreich von College_Data geladen.
+2026-01-07 12:16:13,062 - INFO - Starte Modelltraining (KMeans, k=2)...
+2026-01-07 12:16:14,316 - INFO - Training beendet in 1.2542 Sekunden.
+2026-01-07 12:16:14,316 - INFO - Erstelle Cluster-Zuweisungen...
+2026-01-07 12:16:14,319 - INFO - Starte Modelltraining (KMeans, k=2)...
+2026-01-07 12:16:14,335 - INFO - Training beendet in 0.0163 Sekunden.
+2026-01-07 12:19:23,128 - INFO - Ran with args: ('College_Data',), and kwargs: {}
+2026-01-07 12:19:23,131 - INFO - load_data ran in: 0.0036 sec
+2026-01-07 12:19:23,137 - INFO - Ran with args: (                                 Apps  Accept  Enroll  ...  perc.alumni  Expend  Grad.Rate
+Abilene Christian University     1660    1232     721  ...           12    7041         60
+Adelphi University               2186    1924     512  ...           16   10527         56
+Adrian College                   1428    1097     336  ...           30    8735         54
+Agnes Scott College               417     349     137  ...           37   19016         59
+Alaska Pacific University         193     146      55  ...            2   10922         15
+...                               ...     ...     ...  ...          ...     ...        ...
+Worcester State College          2197    1515     543  ...           14    4469         40
+Xavier University                1959    1805     695  ...           31    9189         83
+Xavier University of Louisiana   2097    1915     695  ...           20    8323         49
+Yale University                 10705    2453    1317  ...           49   40386         99
+York College of Pennsylvania     2989    1855     691  ...           28    4509         99
+
+[777 rows x 17 columns],), and kwargs: {}
+2026-01-07 12:19:24,368 - INFO - fit_model ran in: 1.2310 sec
+2026-01-07 12:19:24,373 - INFO - Ran with args: (KMeans(n_clusters=2, n_init=10),                                  Apps  Accept  Enroll  ...  perc.alumni  Expend  Grad.Rate
+Abilene Christian University     1660    1232     721  ...           12    7041         60
+Adelphi University               2186    1924     512  ...           16   10527         56
+Adrian College                   1428    1097     336  ...           30    8735         54
+Agnes Scott College               417     349     137  ...           37   19016         59
+Alaska Pacific University         193     146      55  ...            2   10922         15
+...                               ...     ...     ...  ...          ...     ...        ...
+Worcester State College          2197    1515     543  ...           14    4469         40
+Xavier University                1959    1805     695  ...           31    9189         83
+Xavier University of Louisiana   2097    1915     695  ...           20    8323         49
+Yale University                 10705    2453    1317  ...           49   40386         99
+York College of Pennsylvania     2989    1855     691  ...           28    4509         99
+
+[777 rows x 17 columns]), and kwargs: {}
+2026-01-07 12:19:24,374 - INFO - predict_model ran in: 0.0005 sec
+2026-01-07 12:19:24,380 - INFO - Ran with args: (                                 Apps  Accept  Enroll  ...  perc.alumni  Expend  Grad.Rate
+Abilene Christian University     1660    1232     721  ...           12    7041         60
+Adelphi University               2186    1924     512  ...           16   10527         56
+Adrian College                   1428    1097     336  ...           30    8735         54
+Agnes Scott College               417     349     137  ...           37   19016         59
+Alaska Pacific University         193     146      55  ...            2   10922         15
+...                               ...     ...     ...  ...          ...     ...        ...
+Worcester State College          2197    1515     543  ...           14    4469         40
+Xavier University                1959    1805     695  ...           31    9189         83
+Xavier University of Louisiana   2097    1915     695  ...           20    8323         49
+Yale University                 10705    2453    1317  ...           49   40386         99
+York College of Pennsylvania     2989    1855     691  ...           28    4509         99
+
+[777 rows x 17 columns],), and kwargs: {}
+2026-01-07 12:19:24,395 - INFO - fit_model ran in: 0.0157 sec
